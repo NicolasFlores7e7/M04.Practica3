@@ -1,0 +1,37 @@
+header {
+    
+    background-color: #0A91AB;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFC045;
+}
+header img{
+    
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+    opacity: 50%;
+}
+#headerMenu{
+    display: inline-flex;
+    height: 45px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #FFC045;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#hover:hover{
+    color:#0A91AB;
+}
+h2{
+    color: #0A91AB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
