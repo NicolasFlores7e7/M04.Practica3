@@ -35,3 +35,119 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
+.flex-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0 60px 0 60px;
+    list-style: none;
+    border-radius: 50px;
+
+  }
+  .flex-item {
+    background: white;
+    padding: 0;
+    width: 500px;
+    height: 400px;
+    margin-top: 30px;
+    line-height: 10px;
+    border-style: dashed;
+    border-color: #FFC045;
+    overflow: hidden ;
+    border-radius: 10px;
+
+}
+#imageDiv{
+    width: 500px;
+    height: 200px;
+    padding: 0;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #FFC045;
+    padding: 5px 5px;
+}
+#gameText{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: left;
+    color: black;
+    line-height: normal;
+    padding: 5px 5px 5px;
+    font-weight: lighter;
+}
+#masInfo{
+   background-color: #FFC045;
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgba(122, 122, 122, 0.74);
+   margin-left: 85%;
+   margin-top: 50px;
+
+}
+#noticiasYAsidecontainer{
+    display: flex;
+    
+}
+#asideContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    background-color:#0a90ab3d;
+    padding: 30px;
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 50px;
+    border-color: rgba(0, 0, 0, 0.199);
+    border-style: dashed;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: larger;
+    color:#0A91AB   
+
+}
+#asideItem{
+    padding: 10px;
+    line-height: 10px;
+    overflow: hidden ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #0a90ab00;
+    color: #FFC045;
+
+
+    
+}
+#asideText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.76);
+    line-height: normal;
+}
+#noticiasContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    list-style: none;
+    border-radius: 50px;
+    text-align: center;
+    color: #0A91AB;
+    font-size: larger;
+}
+#noticiasItem{
+    color:#FFC045;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: large;
+    font-weight: bolder;
+}
+
