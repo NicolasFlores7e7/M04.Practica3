@@ -35,11 +35,15 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
+body{
+    background-color: #0a90ab77;
+}
 .flex-container {
     
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    background-color: #0a90ab63;
     padding: 0;
     margin: 0 60px 0 60px;
     list-style: none;
@@ -47,16 +51,18 @@ h2{
 
   }
   .flex-item {
-    background: white;
+    background: rgba(255, 255, 255, 0.685);
     padding: 0;
     width: 500px;
     height: 400px;
     margin-top: 30px;
+    margin-bottom: 30px;
     line-height: 10px;
     border-style: dashed;
     border-color: #FFC045;
     overflow: hidden ;
     border-radius: 10px;
+
 
 }
 #imageDiv{
@@ -101,7 +107,7 @@ h3{
     flex-flow: column;
     justify-content: flex-start;
     width: 25%;
-    background-color:#0a90ab3d;
+    background-color: #0a90ab63;
     padding: 15px;
     margin-top: 10px;
     list-style: none;
@@ -140,19 +146,21 @@ h3{
     justify-content: space-evenly;
     padding: 0;
     list-style: none;
-    margin-top: 15px;
+    margin: 30px;
     border-radius: 50px;
     text-align: center;
     color: #0A91AB;
     font-size: x-large;
+    background-color: #0a90ab63;
 }
 #noticiasItem{
     color:#FFC045;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size:medium;
-    margin-top: 15px;
-    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.685);
     width: 500px;
     height: 500px;
     line-height: 20px;
@@ -160,6 +168,7 @@ h3{
     border-color:#0A91AB;
     overflow: hidden ;
     border-radius: 10px;
+   
 }
 #fechaNoticia{
     font-family: Arial, Helvetica, sans-serif;
@@ -171,23 +180,37 @@ h3{
     display: flex;
     flex-flow: row wrap;
     padding-top: 30px;
-    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #0a90ab63;
+    border-radius: 50px;
+
+}
+#rankedPerson{
+    display: flex;
+    flex-flow: column wrap;
 }
 #rankText{
+    margin: 20px;
     color: #0A91AB;
     font-size: larger;
     font-weight: bolder;
     text-align: center;
 }
-#rankedPerson{
-    justify-content: center;
-}
+
 #imgRank{
     border-radius: 100%;
-    width: 50%;
+    max-width: 100px;
+    max-height: 100px;
     
 }
 figcaption{
     color: #FFC045;
+    text-align:center;
+}
+#puntuacion{
+    color: black;
+    font-size: small;
+    font-weight: bolder;
     text-align: center;
+    padding: 0;
 }
