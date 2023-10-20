@@ -12,17 +12,21 @@
         <header>
             <h1>M4 Play</h1>
             <img src="images/headerImage.png">
-            <div id="headerMenu">
-                <p id="hover">M04Play</p>
-                <p id="hover">Learning</p>
-                <p id="hover">Play</p>
-                <p id="hover">Others</p>
-            </div>
         </header>
-        <h2>Videojuegos</h2>
-       
-
+        <div id="menuBox" class="sticky">
+            <div id="lineMenu">
+               <a id="hover" href="home.html">M04Play</a>
+               <a id="hover" href="lista.html">Lista</a>
+               <a id="hover" href="videojuego.html">Videojuego</a>
+               <a id="hover" href="contacto.html">Contacto</a>
+            
+            </div>
+        </div>
         <main>
+      
+        <h2>Videojuegos</h2>
+
+        
             <div class="flex-container">
                 <div class="flex-item">
                     <img id="imageDiv" src="images/tboi">
@@ -89,7 +93,7 @@
                         <h3>Unity da marcha atrás: no cobrará por cada descarga de juegos creados con la plataforma</h3>                        
                         <p id="gameText">Unity ha decidido dar marcha atrás en los cambios que habían anunciado para su política de precios a partir de enero de 2024. La compañía pretendía cobrar una cantidad por cada instalación de los juegos desarrollados con Unity, lo cual afectaría principalmente a los pequeños desarrolladores. Sin embargo, debido a la controversia generada y las protestas de la comunidad de desarrolladores, Unity ha cambiado su decisión. Ahora, Unity ya no cobrará por cada instalación de un videojuego a los juegos existentes y tampoco cobrará una cuota por instalación a los desarrolladores que estén suscritos a sus planes Unity Personal o Plus. En cambio, para los juegos que estén sujetos a la cuota de ejecución, se dará la opción de cobrar el 2,5% de los ingresos o una cantidad calculada sobre el número de usuarios nuevos que interactúan con el juego cada mes. Este cambio ha generado protestas y migraciones a otras plataformas, lo que ha dañado la reputación de Unity.
                         </p>
-                        <button id="masInfo" type="button">Más info</button>
+                        <button id="leerMas" type="button">Leer más</button>
                         <img id="imageDiv" src="images/unity.jpg">
 
                     </div>
@@ -99,18 +103,16 @@
                         <h3>Tras casi dos años de largas negociaciones, Microsoft ya tiene vía libre para su gran compra: Activision</h3>
                         <p id="gameText">Microsoft ha logrado finalmente que el acuerdo sea aprobado, lo que marca el desenlace de su lucha de 20 meses por adquirir Activision. El matiz clave que permitió la consecución del acuerdo fue la venta de los derechos de los juegos en la nube de Activision Blizzard a Ubisoft. Esto evita que Microsoft tenga un monopolio sobre los juegos de Activision Blizzard en Xbox Cloud Gaming, ya que podrán lanzarse en otras plataformas de juego en la nube. Todos los actores involucrados se muestran satisfechos con el acuerdo, y Microsoft está a punto de cerrar definitivamente la compra. Se espera que los efectos de esta adquisición se noten en los próximos meses.
                         </p>
-                        <button id="masInfo" type="button">Más info</button>
+                        <button id="leerMas" type="button">Leer más</button>
                         <img id="imageDiv" src="images/activisionblizzard.jpg">
                     </div>
                     <div id="noticiasItem">
                         <p id="fechaNoticia">13/09/23</p>  
                         <HR width="99%" color="#FFC045"> 
                         <h3>Blizzard retrasa el inicio de la Temporada 2 de Diablo IV pòr problemas de última hora</h3>
-                        <p id="gameText">Blizzard ha decidido retrasar el comienzo de la esperada Temporada 2 de Diablo IV debido a algunos inconvenientes de última hora. Aunque la compañía no ha revelado los detalles exactos de estos problemas, han emitido un comunicado oficial en las redes sociales para informar a los jugadores.
-
-                            En este comunicado, Blizzard ha expresado su disculpa por las complicaciones y ha anunciado que la hora de inicio de la Season of Blood se retrasará unas horas para resolver todos los inconvenientes. Han asegurado a los jugadores que compartirán todas las novedades tan pronto como las tengan disponibles.
+                        <p id="gameText">Blizzard ha decidido retrasar el comienzo de la esperada Temporada 2 de Diablo IV debido a algunos inconvenientes de última hora. Aunque la compañía no ha revelado los detalles exactos de estos problemas, han emitido un comunicado oficial en las redes sociales para informar a los jugadores.En este comunicado, Blizzard ha expresado su disculpa por las complicaciones y ha anunciado que la hora de inicio de la Season of Blood se retrasará unas horas para resolver todos los inconvenientes. Han asegurado a los jugadores que compartirán todas las novedades tan pronto como las tengan disponibles.
                         </p>
-                        <button id="masInfo" type="button">Más info</button>
+                        <button id="leerMas" type="button">Leer más</button>
                         <img id="imageDiv" src="images/d4s2.jpg">
                     </div>
                     <div id="noticiasItem">
@@ -119,7 +121,7 @@
                         <h3>Worlds LoL 2023: Horarios del primer día del Main Event en formato suizo</h3>                        
                         <p id="gameText">El formato de los Worlds en años anteriores y cómo ha cambiado con el formato suizo. En resumen, los partidos son a mejor de 1 y un equipo debe ganar 3 partidos para clasificar a los playoffs. Si un equipo pierde tres partidos, queda eliminado. Los partidos decisivos para clasificar o ser eliminado se juegan a mejor de 3. Cuando un equipo alcanza dos victorias o dos derrotas, todos sus partidos serán a mejor de tres hasta que se clasifiquen o sean eliminados. Los enfrentamientos siempre serán entre equipos con el mismo récord de victorias y derrotas, lo que significa que habrá menos opciones después de cada día.
                         </p>
-                        <button id="masInfo" type="button">Más info</button>
+                        <button id="leerMas" type="button">Leer más</button>
                         <img id="imageDiv" src="images/worlds23lol.jpg">
                     </div>
     
@@ -162,6 +164,27 @@
             </div>
            
         </main>
+        <footer>
+            <div id="footerContainer">
+                <div id="footerSocials">
+                    <p id="hover">FACEBOOK</p>
+                    <p id="hover">INSTAGRAM</p>
+                    <p id="hover">X</p>
+                    <p id="hover">RSSS</p>
+                </div>
+                <div id="footerCopyright">
+                    <p>Copyright © 2023-2024</p>
+                </div>
+                <div id="footerAdress">
+                    <p>Carrer d'Aiguablaba 121</p>
+                    <p>08033 Barcelona</p>
+                </div>
+                
+            </div>
+            
+    
+        </footer>
   
     </body>
+   
 </html>
