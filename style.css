@@ -58,14 +58,14 @@ h2{
     font-size: xx-large;
 }
 body{
-    background-color: #00000050;
+    background-color: #ffffff;
 }
 .flex-container {
     
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    background-color: #0a90ab63;
+    background-color:#0A91AB;
     padding: 0;
     margin: 0 60px 0 60px;
     list-style: none;
@@ -126,7 +126,7 @@ h3{
     flex-flow: column;
     justify-content: flex-start;
     width: 25%;
-    background-color: #0a90ab63;
+    background-color: #0A91AB;
     padding: 15px;
     margin-top: 10px;
     list-style: none;
@@ -167,7 +167,7 @@ h3{
     text-align: center;
     color: #0A91AB;
     font-size: x-large;
-    background-color: #0a90ab63;
+    background-color: #0A91AB;
 }
 #noticiasItem{
     display: flex;
@@ -207,7 +207,7 @@ h3{
     margin-left: 15px;
     margin-right: 15px;
     justify-content: space-evenly;
-    background-color: #0a90ab63;
+    background-color: #0A91AB;
     border-radius: 50px;
 
 }
@@ -241,9 +241,9 @@ figcaption{
     padding: 0;
 }
 #footerContainer{
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.295);
     margin-top: 20px;
+    display: flex;
+    background-color: #FFC045;
 
 }
 #footerSocials{
@@ -272,4 +272,65 @@ figcaption{
     margin-top: 3%;
     margin-left: 33%;
     margin-right: 33%;
+}
+
+#listOfVideogamesContainer{
+    padding-top: 50px ;
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-self: center;
+    margin-left: 10%;
+    
+}
+#gameContainer{
+   width: 70%;
+
+}
+#gameTextContainer{
+    display: flex;
+    width: 100%;
+    
+}
+#gameTextTitle{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#platforms{
+   display: flex;
+   flex-direction:column;
+   width: auto;
+   font-size: x-small;
+   margin-right: 10px;
+}
+#gameGenere{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    font-size: xx-small;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.274);
+}
+#gameSynopsis{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    font-weight: light;
+    font-size: small;
+}
+#imageGameContainer{
+    width: 100%;
+    height: 100%;
+}
+
+#imageGame{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
