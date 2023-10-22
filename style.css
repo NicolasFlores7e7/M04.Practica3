@@ -276,7 +276,7 @@ figcaption{
 
 
 
-.game-card {
+.gameCard {
     display: flex;
     width: 80%;
     margin-top: 20px;
@@ -289,34 +289,117 @@ figcaption{
     align-items: center;
 }
 
-.game-card img {
+.gameCard img {
     max-width: 20%;
 }
 
-.text-content {
+.textContent {
     display: flex;
     flex-direction: column;
     width: 80%; 
 }
 
-.game-card h2 {
+.gameCard h2 {
     font-size: 1.2rem;
     margin: 10px 0;
     margin-left: 10px;
 }
-.game-card h4 {
+.gameCard h4 {
     font-size: 1.2rem;
     margin-left: 10px;
 }
-.game-card h5 {
+.gameCard h5 {
     font-size: 1rem;
     margin-left: 10px;
     font-style: italic;
     color: rgba(0, 0, 0, 0.308);
 }
 
-.game-card p {
+.gameCard p {
     font-size: 1rem;
     margin-left: 10px;
     margin-top: 5px;
+}
+
+.mainVideoGameHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainVideoGameHeader img{
+    max-width: 100%;
+}
+
+.mainVideoGameContainer {
+    display: flex; 
+    width: 100%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.mainVideoGameTech{
+    width: 30%; 
+}
+
+.analisys{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.techAnalisys p {
+    text-align: center;
+    font-style: italic;
+}
+
+.analisys img{
+    max-width: 40%;
+    margin-top: 15px;
+}
+.analisys h3{
+    text-align: center;
+    color: #0A91AB;
+}
+.analisys h4{
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 500;
+}
+.mainVideoGame {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+ 
+
+}
+
+.game-info {
+    text-align: center;
+}
+
+.game-info img {
+    max-width: 100%;
+}
+
+.game-info h2 {
+    font-size: 1.5rem;
+}
+
+.game-info p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.play-button, .buy-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    margin: 0 10px;
+    font-weight: bold;
 }
